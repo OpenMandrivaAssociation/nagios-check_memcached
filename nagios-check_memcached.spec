@@ -11,7 +11,6 @@ URL:		http://zilbo.com/
 Source0:	http://zilbo.com/plugins/check_memcached
 Source1:	check_memcached.cfg
 Requires:	nagios
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 A plugin for nagios to check if memcached is up and running.
