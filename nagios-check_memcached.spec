@@ -4,7 +4,7 @@
 Summary:	MemCached health check for Nagios
 Name:		nagios-check_memcached
 Version:	1.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	BSD
 Group:		Networking/Other
 URL:		http://zilbo.com/
