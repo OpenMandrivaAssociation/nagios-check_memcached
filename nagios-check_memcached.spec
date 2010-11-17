@@ -4,13 +4,13 @@
 Summary:	MemCached health check for Nagios
 Name:		nagios-check_memcached
 Version:	1.1
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	BSD
 Group:		Networking/Other
 URL:		http://zilbo.com/
 Source0:	http://zilbo.com/plugins/check_memcached
-Source1:	check_memcached.cfg
 Requires:	nagios
+BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
@@ -36,6 +36,7 @@ define command {
 	command_name    check_memcached
 	command_line    %{_datadir}/nagios/plugins/check_memcached -H $HOSTADDRESS$ -p $ARG1$ -k $ARG2$ -t $ARG3$
 }
+EOF
 
 %if %mdkversion < 200900
 %post
