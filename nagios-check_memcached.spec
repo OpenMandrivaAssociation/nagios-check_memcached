@@ -7,7 +7,7 @@ Version:	1.1
 Release:	8
 License:	BSD
 Group:		Networking/Other
-URL:		http://zilbo.com/
+URL:		https://zilbo.com/
 Source0:	http://zilbo.com/plugins/check_memcached
 Requires:	nagios
 BuildArch:	noarch
